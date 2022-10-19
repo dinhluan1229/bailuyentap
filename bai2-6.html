@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let arr=[];
+  let n=+prompt('Nhập số phần tử');
+  let dem=0;
+  for(let i =0;i<n;i++){
+    let a= +prompt('nhập các phần tử '+ (i+1));
+    arr.push(a);
+    if (a%6==0){
+      dem=dem+1;
+    }
+  }document.write(dem)
+</script>
+</body>
+</html>

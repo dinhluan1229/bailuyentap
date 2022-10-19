@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let arr=[];
+  let n=+prompt('Nhập số phần tử');
+  let sum=0;
+  let dem=0;
+  for(let i =0;i<n;i++){
+    let a= +prompt('nhập các phần tử '+ (i+1));
+    arr.push(a)
+    if (a>10&&a%4==3){
+      sum=sum+a;
+      dem=dem+1
+    }
+  }document.write('TBC là: '+ sum/dem)
+</script>
+</body>
+</html>
