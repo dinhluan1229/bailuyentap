@@ -8,12 +8,11 @@
 <script>
   let a=+prompt('Nhập vào số a');
   let b=+prompt('Nhập vào số b');
-  let tong=0;
-  for (let i=a;i<=b;i++){
-    tong=tong+i;
+  let c=+prompt('Nhập vào số c');
+  if (a+b>c&&a+c>b&&b+c>a){
+    document.write('a,b,c là 3 cạnh của tam giác')
   }
-  document.write(tong);
-
+  else document.write('a,b,c không là 3 cạnh của tam giác')
 </script>
 </body>
 </html>
